@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Frontend/Css/Project.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Dunia Task 1 by Navneet Kaur</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light "  style="background-color: rgb(37, 2, 29);">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto center">
+            <li class="nav-item active">
+                <a class="navbar-brand" href="/Frontend/Html/Project.html" style="color: beige;">Add Project</a>
+                <a class="navbar-brand" href="/Frontend/Html/Campaign.html" style="color: beige;">Add Campaign</a>
+                <a class="navbar-brand" href="/Frontend/Html/Subtask.html" style="color: beige;">SubTask</a>
+                <a class="navbar-brand" href="/Frontend/Html/Project_stats.html" style="color: beige;">Project Stats</a>
+            </li>
+          </ul>
+          
+        </div>
+    </nav>
+    <section  >
+        <table class="table table-striped " >
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Project_name</th>
+                <th scope="col">Total Campaigns</th>
+                <th scope="col">Total Opens Required</th>
+                <th scope="col">Total Opens Acheived</th>
+                <th scope="col">Total Clicks Required</th>
+                <th scope="col">Total Clicks Acheived</th>
+                <th scope="col">Open Cost</th>
+                <th scope="col">Total Open Cost</th>
+                <th scope="col">Click Cost</th>
+                <th scope="col">Total Clicks Cost</th>
+                <th scope="col">Status</th>
+                
+              </tr>
+            </thead>
+            <tbody  id = 'table'>
+            </tbody>
+          </table>
+
+            <nav aria-label="Page navigation example">
+              <ul class="pagination justify-content-center" id = 'btn-group'>
+              </ul>
+            </nav>
+             
+          </div>
+      </section>
+</body>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.3/axios.min.js"></script>
+<script src="/Frontend/Javascript/product_stats.js"></script>
+</html>

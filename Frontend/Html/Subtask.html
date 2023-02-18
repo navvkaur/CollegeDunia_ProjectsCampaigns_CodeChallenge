@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Frontend/Css/Project.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Dunia Task 1 by Navneet Kaur</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light "  style="background-color: rgb(37, 2, 29);">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto center">
+            <li class="nav-item active">
+                <a class="navbar-brand" href="/Frontend/Html/Project.html" style="color: beige;">Add Project</a>
+                <a class="navbar-brand" href="/Frontend/Html/Campaign.html" style="color: beige;">Add Campaign</a>
+                <a class="navbar-brand" href="/Frontend/Html/Subtask.html" style="color: beige;">SubTask</a>
+                <a class="navbar-brand" href="/Frontend/Html/Project_stats.html" style="color: beige;">Project Stats</a>
+            </li>
+          </ul>
+          
+        </div>
+    </nav>
+    <section  style="background-color: rgb(54, 2, 41);">
+        <div class="container">
+          <div class="row d-flex justify-content-center align-items-center ">
+            <div class="col">
+              <div class="card card-registration my-4">
+                <div class="row g-0">
+                  <div class="col-xl-6 d-none d-xl-block">
+                    <img src="https://img.freepik.com/premium-vector/programmer-coding-laptop-software-developer-work-with-business-project-structures-systems-analyzing-data-program-development-concept-flat-vector-illustration-isolated-white-background_633472-597.jpg"
+                      alt="Sample photo" class="img-fluid"
+                      style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem; " />
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="card-body text-black">
+                      <h3 class="mb-5 text-uppercase">Campaign Search form</h3>
+      
+                      <div class="row">
+                        <div class="form-outline mb-4">
+                            <input type="text" id="name" class="form-control form-control-lg" />
+                            <label class="form-label" for="form3Example8">Campaign Name</label>
+                          </div>
+                        
+                      <div class="d-flex justify-content-center pt-3" >
+
+                        <button type="button" class="btn btn-warning btn-lg ms-2" onclick="search(event)">Submit form</button>
+                      </div>
+                      <div class="d-flex justify-content-center pt-3"  id = 'clickkk'>
+
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+
+        </div>
+      </section>
+</body>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.3/axios.min.js"></script>
+<script src="/Frontend/Javascript/Subtask.js"></script>
+</html>
